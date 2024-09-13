@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "breast-cancer"
+version = "0.1.0"
+description = ""
+authors = ["gsjunqueira <giovanisjunqueira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ucimlrepo = "^0.0.7"
+matplotlib = "^3.9.2"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+imbalanced-learn = "^0.12.3"
+seaborn = "^0.13.2"
+numpy = "^2.1.1"
+
+
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
